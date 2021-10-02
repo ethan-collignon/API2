@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: -1;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.formBox{
+    width: 700px;
+    height: 50px;
+    /* display: inline; */
+    justify-items: center;
+    align-items: center;
+    /* background-color: khaki; */
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px rgb(242, 241, 241);
+    padding-top: 9px;
+    padding-left: 130px;
+}
+
+.userInput {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.title {
+    padding-top: 50px;
+    color:ivory
+}
+
+.returnArea {
+  border: 2px dashed #444;
+  height: 125px;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  /* just for demo */
+  min-width: 612px;
+}
+
+.coordinates,
+.historicTemp,
+.temp,
+.humidity,
+.windDirection,
+.windSpeed,
+.timeStamp
+ {
+  width: 200px;
+  height: 125px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  text-align: center;
+}
+
+#search {
+    border-radius: 13%;
+    color: ivory;
+    background-color: black;
+    box-shadow: 0px 0px 1px 1px rgb(242, 241, 241);
+
+    
+}
