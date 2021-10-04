@@ -11,41 +11,43 @@
 <div class="title">
     <h1>What's the Weather?</h1>
 </div>
-<div class="userInput">
-    <form class="formBox">
-        <label for="cityName"></label>
-        <input id="cityName" type="text" placeholder="City">
-
-        <label for="stateName"></label>
-        <input id="stateName" type="text" placeholder="State">
-
-        <button id="search">Search</button>
+<div class="input-group">
+    <span class="input-group-text"></span>
+    <form>
+        <input type="text" id="city" aria-label="City" class="form-control" placeholder="City">
+        <input type="text" id="state" aria-label="State" class="form-control" placeholder="State">
+        <div class="button">
+            <button type="submit" class="btn btn-outline-light">Search</button>
+        </div>
     </form>
+    <span class="input-group-text"></span>
 </div>
+
 <div class="returnArea">
-    <div id="coordinates">
+    <div class="coordinates">
         <h2>Coordinates</h2>
-        <p></p>
+        <p style="font-size: 62px;" id="longitutde"></p>
+        <p style="font-size: 62px;" id="latitude"></p>
     </div>
-    <div id="temp">
-        <h2>Current Temp (c)</h2>
-        <p></p>
+    <div class="temp">
+        <h2>Temperature(C)</h2>
+        <p style="font-size: 62px;" id="temp"></p>
     </div>
-    <div id="humidity">
-        <h2>Humidity</h2>
-        <p></p>
+    <div class="humidity">
+        <h2>Humidity (%)</h2>
+        <p style="font-size: 62px;" id="humidity"></p>
     </div>
-    <div id="windSpeed">
+    <div class="windSpeed">
         <h2>Wind Speed</h2>
-        <p></p>
+        <p style="font-size: 62px;" id="windSpeed"></p>
     </div>
-    <div id="windDirection">
+    <div class="windDirection">
         <h2>Wind Direction</h2>
-        <p></p>
+        <p style="font-size: 62px;" id="windDirection"></p>
     </div>
-    <div id="timeStamp">
+    <div class="timeStamp">
         <h2>Time Stamp</h2>
-        <p></p>
+        <p style="font-size: 62px;" id="timeStamp"></p>
     </div>
 </div>
 
