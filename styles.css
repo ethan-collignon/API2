@@ -5,8 +5,7 @@ body {
     z-index: -1;
     display: grid;
     align-items: center;
-    justify-items: center;
-    
+    justify-items: center;  
 }
 
 .formBox{
@@ -39,24 +38,26 @@ body {
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
   /* just for demo */
-  min-width: 612px;
+  /* min-width: 800px; */
+  width:fit-content;
 }
 
-.coordinates,
-.historicTemp,
-.temp,
-.humidity,
-.windDirection,
-.windSpeed,
-.timeStamp
+#coordinates,
+#historicTemp,
+#temp,
+#humidity,
+#windDirection,
+#windSpeed,
+#timeStamp
  {
-  width: 200px;
+  width: 235px;
   height: 125px;
   vertical-align: top;
   display: inline-block;
-  *display: inline;
-  zoom: 1;
+  /* display: inline; */
+  /* zoom: 1; */
   text-align: center;
+  color: aliceblue;
 }
 
 #search {
