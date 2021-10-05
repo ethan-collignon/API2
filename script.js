@@ -33,11 +33,11 @@ function displayData(json){
     let pressure = json.data.current.weather.pr;
     let timeStamp = json.data.current.weather.ts;
 
-    // let para = document.getElementById("longitude")
-    // para.innerText = longitude
+    let para = document.getElementById("longitude")
+    para.innerText = longitude
 
-    // let para1 = document.getElementById("latitude")
-    // para1.innerText = latitude
+    let para1 = document.getElementById("latitude")
+    para1.innerText = latitude
     
     let para2 = document.getElementById("temp")
     para2.innerText = temperature
@@ -54,8 +54,8 @@ function displayData(json){
     let para6 = document.getElementById("pressure")
     para6.innerText = pressure
 
-    // let para7 = document.getElementById("timeStamp")
-    // para7.innerText = timeStamp
+    let para7 = document.getElementById("timeStamp")
+    para7.innerText = timeStamp
 }
 
 form.addEventListener('submit', weather);

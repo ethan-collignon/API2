@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<body>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,36 +24,40 @@
     <span class="input-group-text"></span>
 </div>
 
-<div class="returnArea">
+<div class="container-fluid">
     <div class="coordinates">
-        <h2>Coordinates</h2>
-        <p style="font-size: 62px;" id="longitutde"></p>
-        <p style="font-size: 62px;" id="latitude"></p>
+        <h4>Coordinates</h4>
+        <p style="font-size: 36px;" id="longitude"></p>
+        <p style="font-size: 36px;" id="latitude"></p>
     </div>
     <div class="temp">
-        <h2>Temperature(C)</h2>
+        <h4>Temperature(C)</h4>
         <p style="font-size: 62px;" id="temp"></p>
     </div>
     <div class="humidity">
-        <h2>Humidity (%)</h2>
+        <h4>Humidity(%)</h4>
         <p style="font-size: 62px;" id="humidity"></p>
     </div>
+    <div class="pressure">
+        <h4>Pressure(hpa)</h4>
+        <p style="font-size: 62px;" id="pressure"></p>
+    </div>
     <div class="windSpeed">
-        <h2>Wind Speed</h2>
+        <h4>Wind Speed(m/s)</h4>
         <p style="font-size: 62px;" id="windSpeed"></p>
     </div>
     <div class="windDirection">
-        <h2>Wind Direction</h2>
+        <h4>Wind Direction</h4>
         <p style="font-size: 62px;" id="windDirection"></p>
-    </div>
-    <div class="timeStamp">
-        <h2>Time Stamp</h2>
-        <p style="font-size: 62px;" id="timeStamp"></p>
     </div>
 </div>
 
-<body>
-   
+<div class="container">
+    <div class="timeStamp">
+        <h6>Time Stamp</h6>
+        <p style="font-size: 18px;" id="timeStamp"></p>
+    </div>
+</div>
     
 
 
